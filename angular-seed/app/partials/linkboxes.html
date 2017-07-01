@@ -1,0 +1,7 @@
+<div ng-controller="TestController">
+  <div ng-repeat="linkbox in data.linkboxes">
+    <a ng-href="{{ linkbox.url }}" target="{{ linkbox.target }}" class="linkbox" style="background-color: #{{ linkbox.bgcolor }}; color: #{{ linkbox.fontcolor }}">
+      {{ linkbox.displayname }} 
+    </a>    
+  </div>
+</div>
